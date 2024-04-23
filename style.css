@@ -5,10 +5,46 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-image: url(images/landscape/mandroseza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blackFilter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 9f);
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedia {
+    width: 5vw;
+    height: 10vh;
+}
+
+.contact {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+#introduction {
+    border: solid red;
+}
+
 #impression {
     font-size: 1rem;
     margin-top: 35vh;
     margin-left: 7vw;
+    border: solid blue;
 }
 
 #firstLine {
@@ -18,15 +54,6 @@
 #hireMe {
     margin-top: 1vh;
     margin-left: 52vw;
-}
-
-.contact {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2vh;
-    border-color: black;
-    border-radius: 3px;
 }
 
 .socialMedia {
