@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-#blackFilter{
+#blackFilter {
     position: absolute;
     top: 0;
     left: 0;
@@ -52,8 +52,7 @@ main {
     margin-right: 5vw;
 }
 
-#introduction {
-}
+#introduction {}
 
 #impression {
     font-size: 1.5rem;
