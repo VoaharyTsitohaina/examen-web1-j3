@@ -1,13 +1,20 @@
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: gainsboro;
+    color: #B0B6B7;
+}
+
+:root {
+    --dark: #323c3f;
+    --brown: #896B5B;
+    --blue: #406371;
+    --light: #B0B6B7;
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/landscape/mandroseza.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/landscape/mandrosezaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -42,17 +49,30 @@ main {
     flex-direction: row;
 }
 
+#introduction {
+    height: 100vh;
+}
 #impression {
     font-size: 1.5rem;
-    margin-top: 18vh;
+    margin-top: 12vh;
     margin-left: 18vw;
+    margin-bottom: 3vh;
 }
 
 #firstLine {
     margin-bottom: 2vh;
 }
 
+.button {
+    font-size: 1.5rem;
+    color: var(--dark);
+    text-decoration: none;
+}
+
 #hireMe {
-    margin-top: 5vh;
-    margin-left: 49vw;
+    margin-left: 5vw;
+}
+
+#allWorks {
+    margin-left: 38vw;
 }
