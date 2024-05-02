@@ -18,6 +18,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 #header {
@@ -52,6 +53,7 @@ main {
 #introduction {
     height: 100vh;
 }
+
 #impression {
     font-size: 1.5rem;
     margin-top: 12vh;
@@ -75,4 +77,52 @@ main {
 
 #allWorks {
     margin-left: 38vw;
+}
+
+@media screen and (max-width: 415px) {
+    #header {
+        margin-top: 5vh;
+    }
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/landscape/1685985261657.jpg);
+        background-repeat: no-repeat;
+        background-position: calc(50% + 5px)50%;
+        background-size: 165%;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    h3 {
+        font-size: 0.9rem;
+        margin-top: 2vh;
+        margin-left: 3vw;
+    }
+    .socialMedia {
+        height: 20px;
+        width: 20px;
+    }
+    .contact {
+        margin-right: 2vw;
+    }
+    #introduction{
+        height: 50vh;
+        width: 85vw;
+    }
+    #impression {
+        font-size: 0.9rem;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        margin-bottom: 2vh;
+    }
+    #firstline{
+        margin-bottom: 10vh;
+    }
+    #secondLine {
+        margin-top: -1.5vh;
+    }
+    .button {
+        font-size: 1rem;
+    }
+    #allWorks {
+        margin-left: 10vw;
+    }
 }
