@@ -43,8 +43,9 @@ h3 {
 .contact {
     display: flex;
     flex-direction: row;
-    margin-left: 78vw;
+    margin-left: 77vw;
     background-color: var(--light);
+    padding-right: 4vw;
 }
 
 .socialMedia {
@@ -93,7 +94,7 @@ ul {
     display: flex;
     flex-direction: row-reverse;
     padding-left: 4vw;
-    margin-block: 2vh;
+    margin-block: 4vh;
 }
 
 .divImage2 {
@@ -112,6 +113,18 @@ p {
     margin-inline: 2vw;
 }
 
+footer {
+    background-color: var(--skyblue);
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    padding-top: 4vh;
+}
+
+.footer {
+    background-color: var(--skyblue);
+    font-size: medium;
+}
 
 @media screen and (max-width: 415px) {
     #principaleNav {
@@ -153,5 +166,8 @@ p {
         width: 70vw;
         height: 20vh;
         border-radius: 40px;
+    }
+    footer {
+        padding-top: 2vh;
     }
 }
